@@ -9,7 +9,7 @@ INSERT INTO products (seller_id, name, price, image_url, stock_quantity, created
   '660e8400-e29b-41d4-a716-446655440001',
   'Elegant Evening Dress',
   89.99,
-  'https://i.pinimg.com/736x/7d/b6/f5/7db6f5ef7f32094accff7b7088113e74.jpgw=400&h=500&fit=crop',
+  'https://images.unsplash.com/photo-1566479179817-0af86d5fd6db?w=400&h=500&fit=crop',
   15,
   NOW()
 ),
