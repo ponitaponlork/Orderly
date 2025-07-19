@@ -284,15 +284,16 @@ export function LiveStorePage({ sellerId }: LiveStorePageProps) {
               <CardContent className="p-0">
                                   <div className="relative w-full bg-gray-900 rounded-lg overflow-hidden">
                     {/* Responsive video ratio - adapts to screen size */}
-                    <div className="relative w-full video-container" style={{ paddingBottom: "min(140%, 70vh)" }}>
+                    <div className="relative w-full video-container" style={{ paddingBottom: "56.25%" }}>
                     {liveSale?.facebook_live_url ? (
                       <iframe
-                        src={`https://www.facebook.com/plugins/video.php?height=476&href=${encodeURIComponent(liveSale.facebook_live_url)}&show_text=false&width=267&t=0`}
-                        className="absolute top-0 left-0 w-full h-full"
+                        src={`https://www.facebook.com/plugins/video.php?height=476&href=${encodeURIComponent(liveSale.facebook_live_url)}&show_text=false&width=476&t=0`}
+                        className="absolute top-0 left-0 w-full h-full object-contain"
                         style={{
                           border: "none",
                           overflow: "hidden",
                           minHeight: "200px",
+                          maxHeight: "80vh",
                         }}
                         scrolling="no"
                         frameBorder="0"
