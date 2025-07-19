@@ -13,12 +13,12 @@ export default function HomePage() {
           <img src="/orderly-logo.png" alt="Orderly" className="h-8 w-8" />
             <span className="text-xl sm:text-2xl font-bold text-gray-900">Orderly</span>
           </div>
-          <div className="flex items-center space-x-3 sm:space-x-4">
+          <div className="flex items-center space-x-2 sm:space-x-4">
             <Link href="/seller/login">
-              <Button variant="outline" className="px-3 sm:px-4 py-2 text-sm">Merchant Login</Button>
+              <Button variant="outline" className="h-9 sm:h-10 text-xs sm:text-sm px-2 sm:px-4">Merchant Login</Button>
             </Link>
             <Link href="/khshop">
-              <Button className="px-3 sm:px-4 py-2 text-sm">Live Demo</Button>
+              <Button className="h-9 sm:h-10 text-xs sm:text-sm px-2 sm:px-4">Live Demo</Button>
             </Link>
           </div>
         </div>
