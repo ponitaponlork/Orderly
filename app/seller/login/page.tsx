@@ -131,7 +131,7 @@ export default function SellerLoginPage() {
             <img src="/orderly-logo.png" alt="Orderly" className="h-8 w-8" />
             <span className="text-2xl font-bold text-gray-900">Orderly</span>
           </Link>
-          <h1 className="text-2xl font-bold text-gray-900">Seller Portal</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Merchant Portal</h1>
           <p className="text-gray-600 mt-2">Sign in to your account or create a new one</p>
         </div>
 
